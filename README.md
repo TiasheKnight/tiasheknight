@@ -23,6 +23,33 @@ The web tool provides a user-friendly interface for currency conversion. Here's 
 - **Reset Button**: This button allows users to clear the input fields and start a new round of calculations.
 
 The web tool incorporates responsive design and visual effects using CSS. You can refer to the `mystyle.css` file to see the specific CSS rules applied to the elements in `demo.html`.
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exchange Rate Conversion</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+  <h1>Exchange Rate Conversion</h1>
+  <form id="conversionForm">
+    <label for="amount">Amount in Taiwan Dollars:</label>
+    <input type="number" id="amount" step="0.01" required>
+    <br>
+    <label for="wonAmount">Amount in Korean Won:</label>
+    <input type="text" id="wonAmount" disabled>
+    <br>
+    <label for="audAmount">Amount in Australian Dollars:</label>
+    <input type="text" id="audAmount" disabled>
+    <br>
+    <button type="button" onclick="calculate()">Calculate</button>
+    <button type="button" onclick="reset()">Reset</button>
+  </form>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+```
 Feel free to explore the code and make any necessary modifications or additions to customize the tool according to your requirements.
 
