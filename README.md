@@ -14,7 +14,7 @@ The repository includes the following files:
 
 ## User Interface
 
-The web tool provides a user-friendly interface for currency conversion. Here's a description of the user interface elements in `demo.html`:
+The web tool provides a user-friendly interface for currency conversion. Here's a description of the user interface elements in `Demo.html`:
 
 - **Amount in Taiwan Dollars**: Users can enter the amount in Taiwan Dollars they want to convert.
 - **Korean Won**: This field displays the equivalent amount in Korean Won after the conversion. It is automatically populated upon calculation.
