@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exchangeRates>
+  <currency>
+    <name>TWD</name>
+    <rate>1</rate>
+  </currency>
+  <currency>
+    <name>KRW</name>
+    <rate>46.57661</rate>
+  </currency>
+  <currency>
+    <name>AUD</name>
+    <rate>0.05083</rate>
+  </currency>
+</exchangeRates>
